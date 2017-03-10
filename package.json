@@ -1,0 +1,40 @@
+{
+  "name": "ts-ol-controls",
+  "version": "0.0.1",
+  "description": "Openlayers map controls in typescript",
+  "main": "./dist/ol-controls.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "lint": "tslint src/**/*.ts",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahashem/ts-ol-controls.git"
+  },
+  "keywords": [
+    "openlayers",
+    "typescript",
+    "controls"
+  ],
+  "author": {
+    "name": "Ahmed Hashem",
+    "email": "me@ahashem.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahashem/ts-ol-controls/issues"
+  },
+  "homepage": "https://github.com/ahashem/ts-ol-controls#readme",
+  "dependencies": {
+    "ol": "^4.0.1-beta.2"
+  },
+  "devDependencies": {
+    "codelyzer": "^3.0.0-beta.3",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
